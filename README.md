@@ -42,7 +42,7 @@ script.js: máscaras, conversões e validações de CEP, Logradouro, Número e U
 
 Requisitos do formulário
 
-    CEP: obrigatório, máscara 00000-000 e regex de validação ^$$\d{5}-\d{3}$$$.
+    CEP: obrigatório, máscara 00000-000 e regex de validação.
 
 ​
 
