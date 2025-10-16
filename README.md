@@ -50,7 +50,7 @@ Logradouro: obrigatório, mínimo 5 caracteres úteis.
 
 ​
 
-Número: obrigatório, apenas dígitos com regex ^$$\d+$$$.
+Número: obrigatório, apenas dígitos com regex.
 
 ​
 
