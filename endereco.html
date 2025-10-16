@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cadastro de Endereço</title>
+  </head>
+  <body>
+    <h1>Cadastro de Endereço</h1>
+
+    <form id="form-endereco" novalidate>
+      <label for="cep">CEP*</label>
+      <input id="cep" name="cep" type="text" inputmode="numeric" autocomplete="postal-code" required aria-required="true" placeholder="00000-000">
+
+      <label for="logradouro">Logradouro*</label>
+      <input id="logradouro" name="logradouro" type="text" required aria-required="true" placeholder="Rua, Avenida...">
+
+      <label for="numero">Número*</label>
+      <input id="numero" name="numero" type="text" inputmode="numeric" required aria-required="true" placeholder="123">
+
+      <label for="uf">UF*</label>
+      <input id="uf" name="uf" type="text" maxlength="2" required aria-required="true" placeholder="SP">
+
+      <label for="complemento">Complemento</label>
+      <input id="complemento" name="complemento" type="text" placeholder="Apto, Bloco...">
+
+      <button type="submit">Salvar</button>
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
